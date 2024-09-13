@@ -21,9 +21,9 @@
             <img class="" src="logo.png" alt="Logo">
 
         <ul class="flex items-center gap-4">
-                <a href=""><img src="ig.svg" alt="Instagram"></a>
-                <a href=""><img src="fb.svg" alt="Facebook"></a>
-                <a href=""><img src="mail.svg" alt="Mail"></a>
+                <a target="_blank" href="https://www.instagram.com/ipsograf/?hl=es-la"><img src="ig.svg" alt="Instagram"></a>
+                <a target="_blank" href="https://www.facebook.com/p/Ipsograf-Impresiones-graficas-100067227882329/?paipv=0&eav=AfZAtjUe6phpMuH15H1E-7uV2fDT5jpbxi6SBp-8LLhU7bfKKRfWKdnt_DSP2OMant4&_rdr"><img src="fb.svg" alt="Facebook"></a>
+                <a target="_blank" href="mailto:administracion@ipsograf.com.ar"><img src="mail.svg" alt="Mail"></a>
         </ul>
         </header>
 
