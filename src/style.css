@@ -4,14 +4,14 @@
 
 @font-face {
 	font-family: 'Mabry';
-	src: url('font/MabryPro-Regular.woff2');
+	src: url('/font/MabryPro-Regular.woff2');
 	font-style: normal;
 	font-weight: 400;
 }
 
 @font-face {
 	font-family: 'Mabry';
-	src: url('font/MabryPro-Bold.woff2');
+	src: url('/font/MabryPro-Bold.woff2');
 	font-style: normal;
 	font-weight: 700;
 }
