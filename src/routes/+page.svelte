@@ -5,16 +5,10 @@
     import Elemento from "/src/componentes/Elemento.svelte"
 	import CTA from "../componentes/CTA.svelte";
 	import Contacto from "../componentes/Contacto.svelte";
-
-    let carousel; // for calling methods of the carousel instance
-    
-    const handleNextClick = () => {
-        carousel.goToNext()
-    }
 </script>
 
 <svelte:head>
-  <title>Ipsograf - Impresión Digital</title>
+  <title>Ipsograf | Impresión Digital</title>
   <meta name="description" content="Tus ideas en impresiones">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </svelte:head>
@@ -36,9 +30,8 @@
         
         {#if browser}
             <Carousel
-                bind:this={carousel}
             >   
-                <Elemento bgImage="carousel/anapurna.jpeg" video="videos/video1-anapurna.mp4" justify="justify-end" >
+                <Elemento bgImage="carousel/anapurna.jpeg" video="videos/video2.mp4" justify="justify-end" >
                     <h1 class="text-4xl md:text-7xl" slot="servicio">Anapurna</h1>
                     <p class="text-xs md:text-base" slot="impresion">Impresión digital cama plana</p>
                     <p class="text-xs md:text-base" slot="papeles">PAI | Lona | Papel | Microperforado | Vinilo</p>
@@ -46,7 +39,7 @@
                     <p class="text-xs md:text-base" slot="info">Blue back | Microcorrugado plástico, Madera</p>
                 </Elemento>
 
-                <Elemento bgImage="carousel/plotter2.png" video="videos/video2.mp4" >
+                <Elemento bgImage="carousel/plotter2.png" video="videos/video3.mp4" >
                     <h1 class="text-4xl md:text-7xl" slot="servicio">Plotter</h1>
                     <p class="text-xs md:text-base" slot="impresion">Impresión digital</p>
                     <p class="text-xs md:text-base" slot="papeles">Vinilo | Papel | Lona | Blue back</p>
@@ -54,20 +47,14 @@
                     <p class="text-xs md:text-base" slot="info">Microperforado</p>
                 </Elemento>
 
-                <Elemento bgImage="carousel/ctp.png" video="videos/video3.mp4" bgPosition="bg-right-top" justify="justify-end" >
+                <Elemento bgImage="carousel/ctp.png" video="videos/video5.mp4" bgPosition="bg-right-top" justify="justify-end" >
                     <h1 class="text-4xl md:text-7xl" slot="servicio">CTP</h1>
                     <p class="text-xs md:text-base" slot="impresion">Copia de chapas térmicas</p>
-                    <!-- <p slot="papeles">Vinilo | Papel | Lona | Blue back</p> -->
                     <p class="text-xs md:text-base" slot="tipo">Desde 320x460mm hasta 1275x1630 mm</p>
-                    <!-- <p slot="info">Microperforado</p> -->
                 </Elemento>
 
-                <Elemento bgImage="carousel/offset.png" video="videos/video4-offset.mp4" bgPosition="bg-top">
+                <Elemento bgImage="carousel/offset.png" video="videos/video4.mp4" bgPosition="bg-top">
                     <h1 class="text-4xl md:text-7xl" slot="servicio">ROLAND offset</h1>
-                    <!-- <p slot="impresion">Copia de chapas térmicas</p> -->
-                    <!-- <p slot="papeles">Vinilo | Papel | Lona | Blue back</p> -->
-                    <!-- <p slot="tipo">Desde 320x460mm hasta 1275x1630 mm</p> -->
-                    <!-- <p slot="info">Microperforado</p> -->
                 </Elemento>
             </Carousel>
         {/if}
