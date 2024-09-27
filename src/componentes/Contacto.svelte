@@ -1,8 +1,8 @@
 <div class="text-black flex flex-col lg:flex-row items-center lg:items-start justify-between w-full p-7 gap-6 lg:gap-0">
     <div class="space-y-4">
         <p class="text-3xl font-bold">Contactanos</p>
-        <a class="flex items-center gap-2" href="https://wa.me/541121343956" target="_blank"><img class="h-8" src="wpp.svg" alt="whatsapp"><u>(+54) 1121343956</u></a>
-        <a class="flex items-center gap-2" target="_blank" href="tel:+(+54)1121343956"><img class="h-8" src="tel.svg" alt="tel"><u>(+54) 1121343956</u></a>
+        <a class="flex items-center gap-2" href="https://wa.me/1126137656" target="_blank"><img class="h-8" src="wpp.svg" alt="whatsapp"><u>(+54) 1126137656</u></a>
+        <a class="flex items-center gap-2" target="_blank" href="tel:+(+54)1175600153"><img class="h-8" src="tel.svg" alt="tel"><u>(+54) 1175600153</u></a>
         <a class="flex items-center gap-2" target="_blank" href="https://maps.app.goo.gl/CfMVG5pzmykWZ72j8"><img class="h-8 mx-auto" src="pin.svg" alt="pin"><u>Mom 3534, C1437 Cdad. Autónoma de Buenos Aires.</u></a>
         <a class="flex items-center gap-2" target="_blank" href="mailto:administracion@ipsograf.com.ar"><img class="h-8" src="mail.svg" alt="mail"> <u>administracion@ipsograf.com.ar</u></a>
     </div>
