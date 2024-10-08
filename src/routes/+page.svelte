@@ -7,12 +7,6 @@
 	import Contacto from "../componentes/Contacto.svelte";
 </script>
 
-<svelte:head>
-  <title>Ipsograf | Impresión Digital</title>
-  <meta name="description" content="Tus ideas en impresiones">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-</svelte:head>
-
 <div class="font-mabry min-h-screen bg-gradient-to-b from-white to-sky-300">
 
     <div class="max-w-[1440px] mx-auto">
