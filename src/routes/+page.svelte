@@ -14,7 +14,7 @@
             <img class="mx-auto lg:mx-0" src="logo.png" alt="Logo">
 
             <ul class="hidden lg:flex items-center gap-4">
-                    <a target="_blank" href="https://www.instagram.com/ipsograf/?hl=es-la"><img class="h-8" src="ig.svg" alt="Instagram"></a>
+                    <a target="_blank" href="https://www.instagram.com/ipso.graf/"><img class="h-8" src="ig.svg" alt="Instagram"></a>
                     <a target="_blank" href="https://www.facebook.com/p/Ipsograf-Impresiones-graficas-100067227882329/?paipv=0&eav=AfZAtjUe6phpMuH15H1E-7uV2fDT5jpbxi6SBp-8LLhU7bfKKRfWKdnt_DSP2OMant4&_rdr"><img class="h-8" src="fb.svg" alt="Facebook"></a>
                     <a href="https://wa.me/1126137656" target="_blank"><img class="h-8" src="wpp.svg" alt="whatsapp"></a>
                     <a target="_blank" href="mailto:administracion@ipsograf.com.ar"><img class="h-8" src="mail.svg" alt="Mail"></a>
